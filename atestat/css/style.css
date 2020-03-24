@@ -1,0 +1,183 @@
+html {
+  overflow-y:visible;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: teal;
+}
+
+body {
+  min-height: 100%;
+  background-color: white;
+  overflow-y: overlay;
+}
+
+.resourceUl {
+  list-style-type: circle;
+}
+
+#sketch-holder, #parcurgeri, #spanDiv, #preDiv {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#postDiv {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#brDiv {
+  padding-top: 20px;
+}
+
+#titleDiv {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#postDiv p {
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  min-height: 100%;
+  font-size: 20px;
+  width: 100%;
+  border-left: solid;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: #eee;
+}
+
+#preDiv a {
+  width: 7%;
+}
+
+#preDiv h3 {
+  width: 86%;
+}
+
+.externalBtn {
+  color: teal;
+}
+
+.leftBtn {
+  float: left;
+  color: rgba(0,0,0,0.87);
+}
+
+.rightBtn {
+  float: right;
+  color: rgba(0,0,0,0.87);
+}
+
+.myBtn i.material-icons {
+  color: rgba(0,0,0,0.87);
+  font-size: 45px;
+  left: 5%;
+  top: 3%;
+  position: fixed;
+}
+
+.infoBtn i.material-icons {
+  color: rgba(0,0,0,0.87);
+  font-size: 45px;
+  right: 5%;
+  top: 3%;
+  position: fixed;
+}
+
+.closeBtn i.material-icons {
+  color: white;
+  font-size: 45px;
+  /* float:right; */
+}
+
+.side-nav .dropdown .dropbtn .material-icons {
+  color: white;
+}
+
+#slide-out {
+  background-color: #111;
+  width: 500px;
+}
+
+#slide-out li a {
+  color: white;
+}
+
+#slide-out li {
+  padding: 10px;
+}
+
+#slide-out li:hover {
+  background-color: #222;
+}
+
+#slide-out li a:hover {
+  background-color: #222;
+}
+
+/*submenu dropdowns nav-mobile*/
+/* Dropdown Button */
+#slide-out .dropbtn {
+  background-color: transparent;
+  color: rgba(0,0,0,0.87);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  line-height: 0;
+  padding-top: 14px;
+}
+
+#slide-out button.dropbtn:focus {
+  outline: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#slide-out .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 1;
+  left: 55%;
+}
+
+#slide-out li .dropdown a {
+  color: white;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+
+#slide-out li .dropdown a:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+/* Links inside the dropdown */
+#slide-out li .dropdown-content a {
+  color: rgba(0,0,0,0.87);
+  padding: 0 16px;
+  text-decoration: none;
+  display: block;
+  text-transform: none;
+  font-size: 1rem;
+  height: 50px;
+  border: none;
+}
+
+/* Show the dropdown menu on hover */
+#slide-out .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#slide-out .dropdown .dropbtn {
+  max-height: 0;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Algoritmică</title>
+  <!--Import Google Icon Font-->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css'> -->
+  <link rel="stylesheet" href="./../libraries/material-icons.css">
+  <link rel="stylesheet" href="./../libraries/materialize.css">
+  <link rel="stylesheet" href="./../libraries/materialize.min.css">
+  <link rel="stylesheet" href="./../css/style.css">
+  <script src = "./../p5/p5.js"></script>
+  <script src = "./../p5/addons/p5.dom.js"></script>
+
+</head>
+
+<body id='cnvWidth'>
+  <a href="#" data-activates="slide-out" class="button-collapse myBtn"><i class="material-icons">menu</i></a>
+  <a href="bibliografie.html" class="infoBtn"><i class="material-icons">info</i></a>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="index.html" class="plain" title="">Acasă</a></li>
+    <li>
+      <div class="dropdown">
+        <a href="#">Sortări<button class="dropbtn"><i class="material-icons">keyboard_arrow_down</i></button></a>
+        <div class="dropdown-content">
+          <a href="bubble.html" title="">Bubble Sort</a>
+          <a href="selection.html" title="">Selection Sort</a>
+          <a href="insertion.html" title="">Insertion Sort</a>
+          <a href="counting.html" title="">Counting Sort</a>
+          <a href="quick.html" title="">Quicksort</a>
+          <a href="merge.html" title="">Mergesort</a>
+          <a href="heap.html" title="">Heapsort</a>
+        </div>
+      </div>
+    </li>
+   <li>
+      <div class="dropdown">
+        <a href="#">Grafuri<button class="dropbtn"><i class="material-icons">keyboard_arrow_down</i></button></a>
+        <div class="dropdown-content">
+          <a href="comp.html" title="">DFS vs. BFS</a>
+          <a href="apm.html" title="">Arbore parțial de cost minim</a>
+          <a href="drum_minim.html" title="">Drum minim(Dijkstra)</a>
+          <a href="arbori.html" title="">Arbori binari</a>
+          <a href="heap-numerotare.html" title="">Heapuri</a>
+          <a href="abc.html" title="">Arbore binar de căutare</a>
+        </div>
+      </div>
+    </li>
+    <li><a href="bibliografie.html" title="">Bibliografie</a></li>
+  </ul>
+
+
+  <div id="preDiv">
+    <a href="abc.html"><i class="large leftBtn material-icons">keyboard_arrow_left</i></a>
+    <h3 style="padding:10px; text-align: center">Bibliografie</h3>
+    <a style="transform:translate(-9999px)"><i class="large rightBtn material-icons">keyboard_arrow_right</i></a>
+  </div>
+
+  <div id="postDiv">
+    <div id="brDiv"></div><div id="brDiv"></div>
+    <div id="titleDiv">Cărți</div>
+    <p>Programarea în limbajul C/C++ pentru liceu (volumele I-III), Emanuela Cerchez, Marinel Șerban</p>
+
+    <div id="brDiv"></div>
+    <div id="titleDiv">Internet</div>
+    <p>
+      p5js.org <a href="https://p5js.org/" class="externalBtn"><i class="material-icons">launch</i></a><br>
+      jquery.com <a href="https://jquery.com/" class="externalBtn"><i class="material-icons">launch</i></a><br>
+      materializecss.com <a href="https://materializecss.com/" class="externalBtn"><i class="material-icons">launch</i></a><br>
+      wikipedia.org <a href="https://www.wikipedia.org/" class="externalBtn"><i class="material-icons">launch</i></a><br>
+      stackoverflow.com <a href="https://stackoverflow.com/" class="externalBtn"><i class="material-icons">launch</i></a><br>
+      youtube.com <a href="https://www.youtube.com/" class="externalBtn"><i class="material-icons">launch</i></a></a>
+    </p>
+  </div>
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js'></script>
+  <script src='./../libraries/jquery.min.js'></script>
+  <script src='./../libraries/materialize.js'></script>
+  <script src='./../libraries/materialize.min.js'></script>
+  <script>$(".button-collapse").sideNav();</script>
+</body>
+
+</html>
